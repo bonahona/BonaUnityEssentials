@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonaUnityEssentials.CSharp", "BonaUnityEssentials.CSharp.csproj", "{AFD344D7-9426-20D2-3777-7FF2EB54619D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonaUnityEssentials.CSharp.Editor", "BonaUnityEssentials.CSharp.Editor.csproj", "{E00EEEAF-7202-C584-B6BA-C12C5477F515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD344D7-9426-20D2-3777-7FF2EB54619D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD344D7-9426-20D2-3777-7FF2EB54619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD344D7-9426-20D2-3777-7FF2EB54619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD344D7-9426-20D2-3777-7FF2EB54619D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00EEEAF-7202-C584-B6BA-C12C5477F515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00EEEAF-7202-C584-B6BA-C12C5477F515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00EEEAF-7202-C584-B6BA-C12C5477F515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00EEEAF-7202-C584-B6BA-C12C5477F515}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

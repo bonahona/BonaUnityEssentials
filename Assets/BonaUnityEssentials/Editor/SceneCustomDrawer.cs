@@ -11,8 +11,13 @@ public class SceneCustomDrawer : PropertyDrawer {
     {
         var sceneAttribute = attribute as SceneAttribute;
         var sceneNames = GetSceneNames(sceneAttribute.AllowInactiveScenes);
-        int selectedSceneIndex = EditorGUI.Popup(position, label, GetIndex(sceneNames, property.stringValue), GetGuiContent(sceneNames));
-        property.stringValue = sceneNames[selectedSceneIndex];
+
+        if (sceneNames.Count > 0) {
+            int selectedSceneIndex = EditorGUI.Popup(position, label, GetIndex(sceneNames, property.stringValue), GetGuiContent(sceneNames));
+            property.stringValue = sceneNames[selectedSceneIndex];
+        }else {
+            EditorGUI.LabelField(position, label, new GUIContent("No scenes found"));
+        }
     }
 
     private List<string> GetSceneNames(bool allowInacticeScenes){
