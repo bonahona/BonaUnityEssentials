@@ -17,4 +17,13 @@ public static class ObjectExtension
             return default(T);
         }
     }
+
+    public static bool In<T>(this T item, params T[]items)
+    {
+		if(items == null){
+			throw new ArgumentNUllException();
+		}
+		
+		return items.Contains(item);
+    }
 }
