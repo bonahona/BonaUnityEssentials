@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System;
 using System.Collections;
+using System.Linq;
 
 public static class ObjectExtension
 {
@@ -21,7 +22,7 @@ public static class ObjectExtension
     public static bool In<T>(this T item, params T[]items)
     {
 		if(items == null){
-			throw new ArgumentNUllException();
+			throw new ArgumentNullException();
 		}
 		
 		return items.Contains(item);
